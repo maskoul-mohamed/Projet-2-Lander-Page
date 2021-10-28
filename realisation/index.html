@@ -10,66 +10,63 @@
 </head>
 <body>
     <header>
+        <img class="logo" src="/realisation/icon-lander.svg" alt="lander logo">
         <nav>
-            <img src="/realisation/icon-lander.svg" alt="lander logo">
-
             <ul>
                 <li>
-                    <a href="#">Product</a>
+                    <a class="nav-link" href="#">Product</a>
                 </li>
                 <li>
-                    <a href="#">Templets</a>
+                    <a class="nav-link" href="#">Templets</a>
                 </li>
                 <li>
-                    <a href="#">Pricing</a>
+                    <a class="nav-link" href="#">Pricing</a>
                 </li>
                 <li>
-                    <a href="#">Resources</a>
+                    <a class="nav-link" href="#">Resources</a>
                 </li>
                 <li>
-                    <a href="#">Blog</a>
+                    <a class="nav-link" href="#">Blog</a>
                 </li>
             </ul>
-
-            <div>
-                <button>14 DAYS FREE TRIAL</button>
-                <button>LOG IN</button>
-            </div>
         </nav>
+        
+        <div>
+            <button class="btn-trial">14 DAY FREE TRIAL</button>
+            <button class="btn-login">LOG IN</button>
+        </div>
     </header>
 
     <main>
-        <section>
+        <section class="contact">
             <h1>CONTACT US</h1>
             <p>Our dream team of conversion spicialists are looking for ward to hearing from you!</p>
         </section>
 
-        <section>
+        <section class="form">
             <h2>REACH OUT TO US!</h2>
             <p>Got a question about Lander? Want to par tner with us? Have some suggestions or just want to say "Hi" Contact Us:</p>
             <form>
                 <input type="text" placeholder="First name" required>
                 <input type="text" placeholder="Last name" required>
                 <input type="email" placeholder="Your Email Adress" required>
-                <input type="number" placeholder="Phone Number" required>
-                <textarea name="" id="" cols="50" rows="10"></textarea>
-                <input type="submit" value="SUBMIT">
+                <input type="tel" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                <textarea name="" id="" cols="50" rows="10" placeholder="Message"></textarea>
+                <input type="submit" value="SUBMIT" class="form-submit">
             </form>
         </section>
 
-        <section>
+        <section class="social-media">
             <h2>LANDER TEAM</h2>
             <p>Not sure where to start? Need help adding that extra mojo to your landing page? Visit our 
                 <span>Help Center</span>
                 or get in touch with us:
             </p>
-        </section>
 
-        <section>
-            <h2>
+            <h2 id="social-media-subtitle">
                 Other ways to connect
             </h2>
-            <ul>
+            <ul class="social-media-list">
                 <li>
                     <i class="fab fa-facebook"></i>
                     <p>Be the first on your block to get product updates, announcements, 
