@@ -61,6 +61,7 @@ header div {
 .nav-link {
     padding: 8px 15px;
 }
+/* created by maskoul*/
 .nav-link:hover{
     color: black;
     background-color: white;
@@ -115,6 +116,7 @@ main {
     font-size: 48px;
     padding: 25px;
 }
+/* created by maskoul*/
 
 .form {
     width: 50%;
